@@ -1,0 +1,442 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "montserrat";
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 60px;
+    align-items: center;
+
+}
+.header ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+    font-size: 30px;
+    margin-left:100px
+}
+.btn-lgn{
+    background-color: #204e51;
+    padding:15px 45px;
+    border:none;
+    font-size: 22px;
+    color:white;
+    border-radius: 8px;
+}
+.btn-sgn{
+    background-color: white;
+    padding:13px 45px;
+    border:2px solid #204e51;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.hero{
+    background-image: url(/pictures/assets/image\ 1.png);
+    color:white;
+    padding:40px 100px;
+    height: 560px;
+    text-align: center;
+}
+.hero h1{
+    padding-top: 40px;
+    font-size: 85px;
+}
+.hero p{
+    padding:15px 55px;
+}
+.btn-login {
+    background-color: #204e51 ;
+    border:nonr;
+    color:white;
+    padding:5px 20px;
+    margin-right:10px ;
+    border-radius: 7px;
+
+}
+.btn-sign{
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+    position: relative;
+}
+.main-left{
+    width: 300px;
+    padding:20px 30px;
+    color:#204e51;
+    
+}
+
+.main-left p{
+    margin-top: 14px;
+    width: 600px;
+}
+.main-left button{
+    border:none;
+    color:white;
+    background-color: #204e51;
+    width: 110px;
+    font-size: 12px;
+    padding:2px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+.main-right img{
+    height: 550px;
+    border-radius: 12px;
+}
+.main-right h2{
+    background-color:white;
+    width: 150px;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 50px;
+    left:850px;
+
+}
+.footer{
+    text-align: center;
+    padding: 10px 50px;
+    color: #204e51;
+    
+}
+.footer h1{
+    font-size: 60px;
+}
+.footer p{
+    padding:10px 80px
+}
+.serviveses{
+    display: flex;
+
+}
+.service{
+    width: 350px;
+    height: 300px;
+    background-color:wheat;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+.service img{
+    padding-top: 20px;
+}
+.service h1{
+    padding-top: 40px;
+    font-size: 25px;
+}
+.product{
+    width: 250px;
+    height: 400px;
+    background-color:gainsboro;
+    margin:25px;
+    border-radius: 14px;
+    padding:20px 10px;
+    text-align: center;
+    
+}
+.product p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.products-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.sustain{
+    height: 400px;
+    color:white;
+    padding-top:140px;
+    padding-left: 90px;
+    font-size: 32px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+     url(https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus_181624-44070.jpg?t=st=1730546385~exp=1730549985~hmac=68032fae0db90458b2a1de1aeb5dc316586040a1448b0408007eb4add8606c0e&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sustain h1{
+    padding-bottom: 30px;
+    
+}
+.more{
+    border:none;
+    width:  100px;
+    height: 40px;
+    background-color: gray;
+    color:white;
+    padding: 10px;
+    
+}
+.contact{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border:none;
+}
+.benafit-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+.benafit-left{
+    width: 400px;
+}
+.benafit-right{
+    width: 600px;
+    height: 600px;
+    background-color: #204e51;
+    border-radius: 22px;
+    color:white
+}
+.benafit-left h1{
+    font-size: 55px;
+}
+.benafit-left p{
+    margin: 40px 0px;
+}
+.min{
+    background-color:#204e51;
+    color:white;
+    width: 150px;
+    height: 40px;
+    border:none;
+    font-size: 15px;
+}
+.icon{
+    display: flex;
+    gap:40px;
+    margin:70px 90px
+}
+.icon i{
+    font-size: 60px;
+}
+.review{
+	width:100% ;
+	height: 400px;
+	background-color:#204E51;
+ }
+
+ .t-parent{
+	display: grid;
+	grid-template-columns: 50px 900px 50px;
+	justify-content: center;
+	gap: 40px;
+ }
+
+
+
+ .review i{
+	color: white;
+	font-size: 40px;
+	margin-top: 170px;
+	background-color:#204E51;
+	border-radius: 50px;
+	box-shadow: 0PX 0px 6px gray ;
+ }
+
+ .review2{
+	width:100% ;
+	height: 400px;
+	background-color:#204E51;
+	border-radius: 20px;
+	color: white;
+	
+ }
+
+ .review2 i{
+  color: orange;
+ }
+
+
+  #left-arow{
+	background-color: white;
+
+  }
+
+  #right-arrow{
+	background-color: white;
+  }
+  .person-parent{
+    display: flex;
+    gap:40px;
+    margin:50px;
+  }
+.down{
+    width: 91%;
+    height: 120px;
+    background-color:#204e51;
+    margin-top: 60px;
+    padding:100px 60px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    text-align: center;
+    
+}
+.down-left h2{
+    padding-bottom: 20px;
+    
+}
+.down-left p{
+    font-size: 12px;
+}
+.down-center ul{
+    list-style: none;
+    padding-top:10px;
+}
+.down-center li{
+    padding:4px;
+    font-size: 15px;
+}
+.down-right ul{
+    list-style: none;
+    padding-top:10px;
+
+}
+.down-right li{
+    list-style: none;
+    padding-top:10px;
+
+}
+
+@media screen and (max-width:600px){
+    .header ul{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+    .header{
+        padding:20px;
+    }
+    .header i{
+        font-size: 50px;
+    }
+    .hero{
+        padding: 15px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero p{
+        margin: 30px px;
+
+    }
+    .btn-lgn{
+        margin-bottom:30px ;
+    }
+    .main{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .main-left, .main-right{
+        width: 250px;
+    }
+    
+    .main-right img{
+        width: 300px;
+    }
+
+    .main-left h1{
+        font-size: 30px ;
+    }
+    .main-left p{
+        width: 300px;
+    }
+    .main-right h2{
+        left:60px;
+
+    }
+    .footer h1{
+        font-size: 35px;
+    }
+    .footer p{
+        padding: 10px;
+    }
+    .serviveses{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .products-parent{
+        flex-direction: column;
+        margin-left:27px;
+        padding:0px 20px
+    }
+    .sustain{
+        padding:20px;
+    }
+    .sustain h1{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .benafit-parent{
+        flex-direction: column;
+        margin:20px
+    }
+    .benafit-left button{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .benafit-right{
+        width: 350px;
+    }
+    .t-parent{
+        grid-template-columns: 20px 250px 20px;
+        
+    }
+    .review2{
+        height: 220px;
+    }
+    .review2 img{
+        width: 60px;
+        height: 50px;
+    }
+    .review i {
+        font-size: 20px;
+        margin-top: 80px;
+        
+    }
+    .person-parent{
+        margin-top:10px ;
+        margin-right: 0px;
+        margin-left: 10px;
+        gap:25px
+
+    }
+    .person-parent h1{
+        font-size: 10px;
+    }
+    .person-parent p{
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+    .down{
+        width: 72%;
+        
+        justify-content: center;
+
+    }
+    .down-left p {
+    
+        
+    }
+    .down-center{
+       
+        margin-right: 40px;
+    }
+   
+}
